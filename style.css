@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: normal;
+}
+
+div {
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: normal;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #AC3931;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.center_align {
+  text-align: center;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+td {
+  padding: 15px;
+}
+
+#profile_picture {
+  border-radius: 50%;
+  width: 250px;
+  margin-bottom: 75px;
+}
+
+#nav_card {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#footer_nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#padding_left {
+  padding-left: 15px;
+}
